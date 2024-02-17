@@ -483,21 +483,6 @@ footer {
 
 }
 
-@media screen and (max-width: 370px) {
-
-    /* #email>input {
-        padding: 10px 20px;
-        font-size: 12px;
-    }
-
-    #get>button {
-        padding: 10px 20px;
-        font-size: 10px;
-        font-weight: 300;
-    } */
-
-}
-
 @media screen and (max-width: 323px) {
     .nav {
         flex-direction: column;
