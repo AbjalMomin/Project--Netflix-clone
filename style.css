@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;700&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Background Part */
+
+body {
+    background-color: black;
+}
+
+.select>select {
+    border: none;
+}
+
+.main {
+    background-image: url("Assets/Images/Bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1300px, 100vw);
+    height: 40rem !important;
+    position: relative;
+    position: relative;
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    background-color: black;
+    top: 0;
+    padding-bottom: 2rem;
+}
+
+
+/* Navigation Part */
+
+.nav {
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    position: relative;
+    z-index: 10;
+}
+
+#logo>img {
+    width: 160px;
+}
+
+.top-right {
+    display: flex;
+}
+
+#sign-in {
+    background-color: #e50914;
+    padding: 1px 10px;
+    border-radius: 5px;
+    margin: 0px 10px;
+    box-sizing: border-box;
+}
+
+#sign-in>a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+/* Language Part */
+.select>select {
+    background-color: rgba(7, 7, 7, 0.471);
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    border: none;
+}
+
+.select {
+    display: inline-block;
+    background-color: rgba(7, 7, 7, 0.471);
+    height: 30px;
+    border: 1px solid rgb(97, 97, 97);
+    padding: 0px 10px 10px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.select option {
+    background-color: white;
+    color: black;
+}
+
+
+/* Hero Part */
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 64px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    position: relative;
+    z-index: 10;
+    color: white;
+}
+
+#hero-p1 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.hero-p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+/* Email Part */
+
+.get-start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    width: 95%;
+    height: 20%;
+}
+
+#email {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50%;
+    width: 30%;
+}
+
+#email>input {
+    background-color: rgba(7, 7, 7, 0.714);
+    padding-left: 10px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid rgb(116, 116, 116);
+    font-size: 1.1rem;
+}
+
+#get {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50%;
+    width: 20%;
+}
+
+#get>button {
+    background-color: #e50914;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    color: white;
+}
+
+#break {
+    height: 2px;
+    border: 4px solid #232323;
+    position: relative;
+    z-index: 10;
+}
+
+/* Header Part Completed */
+
+
+/* Section Part */
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+}
+
+section.first {
+    padding: 72px 0px;
+    min-width: auto;
+}
+
+/* Img & Vid Part */
+.secimg {
+    position: relative;
+    position: relative;
+    padding-left: 1rem;
+}
+
+.secimg img {
+    height: 100%;
+    position: relative;
+}
+
+.secimg video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    max-width: 71.5%;
+    max-height: 59%;
+    top: 18%;
+    left: 16%;
+}
+
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.mac>video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    max-width: 60%;
+    max-height: 75%;
+    top: -5%;
+    left: 20%;
+}
+
+.first>div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 auto;
+}
+
+/* Section Text Part */
+.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first>div :nth-child(2) {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Section Part Completed */
+
+
+/* FAQ Part */
+
+.faq {
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+
+.faq>h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+}
+
+.faqbox {
+    transition: all 0.4s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 80vw;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.last-span {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.bottom {
+    width: 100%;
+    height: 101px;
+}
+
+/* FAQ Part Completed */
+
+
+/* Footer Part */
+
+footer {
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+    padding: 14px;
+}
+
+.question {
+    padding: 34px 0px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.sel-last {
+    padding: 0px;
+    background-color: #5a5a5a3a;
+    margin-top: 20px;
+}
+
+/* Bottom Netflix India */
+#net-ind {
+    margin-top: 20px;
+}
+
+/* Footer Part Completed */
+
+@media screen and (max-width:1280px) {
+    .nav {
+        max-width: 95vw;
+    }
+
+    .first {
+        max-width: 95vw;
+    }
+
+    .first>div {
+        flex-wrap: wrap;
+    }
+
+    .faqbox {
+        max-width: 95vw;
+    }
+
+    footer {
+        max-width: 95vw;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+    #logo>img {
+        width: 88px;
+    }
+
+    .hero {
+        flex-wrap: wrap;
+    }
+
+    #hero-p1 {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .hero-p {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .first {
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .first>div {
+        text-align: center;
+    }
+
+    .sec-fdiv {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .second {
+        flex-direction: column-reverse;
+    }
+
+    .first>div :nth-child(1) {
+        font-size: 32px;
+        font-weight: 900;
+    }
+
+    .first>div :nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .faq>h2 {
+        font-size: 32px;
+    }
+
+    .faqbox {
+        font-size: 18px;
+    }
+
+    .last-span {
+        font-size: 18px;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 715px) {
+    #get>button {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+
+    .get-start {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #email {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 50%;
+        width: 80%;
+    }
+
+    #get {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 50%;
+        width: 40%;
+    }
+
+    .secimg img {
+        width: 100%;
+    }
+
+    .secimg video {
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 370px) {
+
+    /* #email>input {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    #get>button {
+        padding: 10px 20px;
+        font-size: 10px;
+        font-weight: 300;
+    } */
+
+}
+
+@media screen and (max-width: 323px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .select>select {
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    #sign-in>a {
+        font-weight: 300;
+        font-size: 10px;
+    }
+
+    .select {
+        max-width: 110px;
+    }
+
+}
+
+
+/* Made by Abjal Momin (Royal Prince) */
