@@ -1,2 +1,1 @@
-# Project--Netflix-clone
-Netflix India - Clone
+Project Netflix India Clone HTML | CSS | Responsiveness
